@@ -3,5 +3,5 @@ Repository per le quattro esercitazioni di Ingegneria del software che si terran
 
 Per clonare questa repository, aprite un terminale e fate:
 ```bash
-git -clone https://github.com/nicopellegrinelli/EsercitazioniIdS
+git clone https://github.com/nicopellegrinelli/EsercitazioniIdS
 ```
