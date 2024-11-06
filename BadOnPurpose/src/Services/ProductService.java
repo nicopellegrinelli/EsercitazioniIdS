@@ -27,7 +27,7 @@ public class ProductService {
 
 	public Product getProduct(String productName) {
 		for (Product p : products) {
-			if (Objects.equals(p.getName(), productName))
+			if (p.getName() == productName)
 				return p;
 		}
 		return null;
