@@ -1,0 +1,8 @@
+Modifiche alla struttura:
+-> Non aveva senso mettere i due metodi in Utils, le funzionalità sono state spostate nelel classi Order e OrderService
+-> La classe myMain era inutile, è stata rimossa
+-> In Order non ci deve essere business logic, quindi la ricerca del Product e del customer è stata spostata in OrederService
+==> Non ci sono più tangle, ma rimane il problema della distance
+Altre modifiche:
+-> SonarLint ha aiutato a risolvere il resto
+-> Rimangono quelli del logger e dei Singleton, si possono disattivare
