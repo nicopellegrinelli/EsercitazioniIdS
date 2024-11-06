@@ -1,5 +1,6 @@
 package app;
 
+import model.PremiumCustomer;
 import services.CustomerService;
 import services.OrderService;
 import services.ProductService;
@@ -14,7 +15,10 @@ public class Application {
         productService.addProduct("Pasta", 5);
         
         String c1 = "customer1";
-        customerService.addCustomer(c1);
+        customerService.addCustomer(c1, "31/12/1999", "Mario Rossi");
+        customerService.addPremiumCustomer("customer2", "01/01/2000", "Maria Bianchi", PremiumCustomer.Level.GOLD);
+        System.out.println(customerService.getCustomer("customer1").toString());
+        System.out.println(customerService.getCustomer("customer2").toString());
 
         orderService.addOrder(1, c1, "Pizza", 3);
         orderService.addOrder(2, c1, "Pasta", 1);
