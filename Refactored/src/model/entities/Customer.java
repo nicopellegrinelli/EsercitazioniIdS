@@ -1,6 +1,8 @@
-package model;
+package model.entities;
 
-public class Customer {
+import model.interfaces.ICustomer;
+
+public class Customer implements ICustomer {
     protected String id;
     protected String dob;
     protected String name;
@@ -11,10 +13,12 @@ public class Customer {
         this.name = name;
     }
 
-    public String getId() {
+    @Override
+	public String getId() {
         return id;
     }
     
+	@Override
 	public String toString() {
 		String result = "";
 		result += id;

@@ -1,6 +1,8 @@
-package model;
+package model.entities;
 
-public class Product {
+import model.interfaces.IProduct;
+
+public class Product implements IProduct {
     private String name;
     private int price;
 
@@ -9,11 +11,13 @@ public class Product {
         this.price = price;
     }
 
-    public String getName() {
+    @Override
+	public String getName() {
         return name;
     }
     
-    public int getPrice() {
+    @Override
+	public int getPrice() {
         return price;
     }
 }

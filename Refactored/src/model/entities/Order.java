@@ -1,13 +1,17 @@
-package model;
+package model.entities;
 
-public class Order {
+import model.interfaces.ICustomer;
+import model.interfaces.IOrder;
+import model.interfaces.IProduct;
+
+public class Order implements IOrder {
     private int orderId;
-    private Customer customer;
-    private Product product;
+    private ICustomer customer;
+    private IProduct product;
     private int quantity;
     private int total;
 
-    public Order(int orderId, Customer customer, Product product, int quantity) {
+    public Order(int orderId, ICustomer customer, IProduct product, int quantity) {
         this.orderId = orderId;
         this.customer = customer;
         this.product = product;
@@ -15,27 +19,33 @@ public class Order {
         this.total = product.getPrice() * quantity;
     }
 
+	@Override
 	public int getOrderId() {
 		return orderId;
 	}
 
-	public Customer getCustomer() {
+	@Override
+	public ICustomer getCustomer() {
 		return customer;
 	}
 
-	public Product getProduct() {
+	@Override
+	public IProduct getProduct() {
 		return product;
 	}
 
+	@Override
 	public int getQuantity() {
 		return quantity;
 	}
 	
+	@Override
 	public int getTotal() {
 		return total;
 	}
 	
-    public String toString() {
+    @Override
+	public String toString() {
 		return "- order: " + getOrderId() 
 		+ ", customer: " + getCustomer().getId() 
 		+ ", product: " + getProduct().getName() 

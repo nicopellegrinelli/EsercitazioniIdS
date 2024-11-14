@@ -1,4 +1,4 @@
-package model;
+package model.entities;
 
 public class PremiumCustomer extends Customer{
 	public enum Level {
@@ -12,6 +12,7 @@ public class PremiumCustomer extends Customer{
 		this.level = level;
 	}
 	
+	@Override
 	public String toString() {
 		String result = super.toString();
 		result += " -- level: " + level.toString();

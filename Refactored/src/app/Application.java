@@ -1,6 +1,6 @@
 package app;
 
-import model.PremiumCustomer;
+import model.entities.PremiumCustomer;
 import services.CustomerService;
 import services.OrderService;
 import services.ProductService;
