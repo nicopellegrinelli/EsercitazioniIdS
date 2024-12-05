@@ -221,21 +221,21 @@
     <packagedElement xmi:type="uml:Model" xmi:id="_jHwQwLJVEe-HUoqDYe9MpA" name="StateMachineDiagram">
       <packagedElement xmi:type="uml:StateMachine" xmi:id="_mH3y0LJVEe-HUoqDYe9MpA" name="ProgrammaStudio">
         <region xmi:type="uml:Region" xmi:id="_nERJoLJVEe-HUoqDYe9MpA" name="Region1">
-          <transition xmi:type="uml:Transition" xmi:id="_gAvAALJWEe-HUoqDYe9MpA" source="_P2TYwLJWEe-HUoqDYe9MpA" target="_bYuoMLJYEe-HUoqDYe9MpA"/>
-          <transition xmi:type="uml:Transition" xmi:id="_whNIsLJWEe-HUoqDYe9MpA" source="_N1hz0LJWEe-HUoqDYe9MpA" target="_P2TYwLJWEe-HUoqDYe9MpA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_gAvAALJWEe-HUoqDYe9MpA" name="Nuovo semestre [tasse pagate]" source="_P2TYwLJWEe-HUoqDYe9MpA" target="_bYuoMLJYEe-HUoqDYe9MpA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_whNIsLJWEe-HUoqDYe9MpA" name="Nuovo semestre [tasse non pagate]" source="_N1hz0LJWEe-HUoqDYe9MpA" target="_P2TYwLJWEe-HUoqDYe9MpA"/>
           <transition xmi:type="uml:Transition" xmi:id="_3qzooLJWEe-HUoqDYe9MpA" source="_2bcSgLJWEe-HUoqDYe9MpA" target="_P2TYwLJWEe-HUoqDYe9MpA"/>
-          <transition xmi:type="uml:Transition" xmi:id="_LCQwELJYEe-HUoqDYe9MpA" source="_P2TYwLJWEe-HUoqDYe9MpA" target="_JhKwwLJYEe-HUoqDYe9MpA"/>
-          <transition xmi:type="uml:Transition" xmi:id="_MoOBQLJYEe-HUoqDYe9MpA" source="_N1hz0LJWEe-HUoqDYe9MpA" target="_JhKwwLJYEe-HUoqDYe9MpA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_LCQwELJYEe-HUoqDYe9MpA" name="Lascia Università" source="_P2TYwLJWEe-HUoqDYe9MpA" target="_JhKwwLJYEe-HUoqDYe9MpA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_MoOBQLJYEe-HUoqDYe9MpA" name="Lascia Università" source="_N1hz0LJWEe-HUoqDYe9MpA" target="_JhKwwLJYEe-HUoqDYe9MpA"/>
           <subvertex xmi:type="uml:State" xmi:id="_N1hz0LJWEe-HUoqDYe9MpA" name="Attivo">
             <region xmi:type="uml:Region" xmi:id="_V_fkkLJWEe-HUoqDYe9MpA" name="Region1">
               <transition xmi:type="uml:Transition" xmi:id="_6cpBoLJXEe-HUoqDYe9MpA" source="_g56DsLJWEe-HUoqDYe9MpA" target="_WX9H4LJWEe-HUoqDYe9MpA"/>
-              <transition xmi:type="uml:Transition" xmi:id="_HeWkcLJYEe-HUoqDYe9MpA" source="_bE274LJWEe-HUoqDYe9MpA" target="_78zpULJWEe-HUoqDYe9MpA"/>
+              <transition xmi:type="uml:Transition" xmi:id="_HeWkcLJYEe-HUoqDYe9MpA" name="Fine" source="_bE274LJWEe-HUoqDYe9MpA" target="_78zpULJWEe-HUoqDYe9MpA"/>
               <transition xmi:type="uml:Transition" xmi:id="_ogvnULJYEe-HUoqDYe9MpA" source="_bYuoMLJYEe-HUoqDYe9MpA" target="_WX9H4LJWEe-HUoqDYe9MpA"/>
               <subvertex xmi:type="uml:State" xmi:id="_WX9H4LJWEe-HUoqDYe9MpA" name="Laurea Triennale">
                 <region xmi:type="uml:Region" xmi:id="_Fx44ELJXEe-HUoqDYe9MpA" name="Region1">
                   <transition xmi:type="uml:Transition" xmi:id="_85Yw4LJXEe-HUoqDYe9MpA" source="_ZEaRoLJXEe-HUoqDYe9MpA" target="_Lh4gwLJXEe-HUoqDYe9MpA"/>
-                  <transition xmi:type="uml:Transition" xmi:id="_9j2DILJXEe-HUoqDYe9MpA" source="_Lh4gwLJXEe-HUoqDYe9MpA" target="_ML68QLJXEe-HUoqDYe9MpA"/>
-                  <transition xmi:type="uml:Transition" xmi:id="__wZaQLJXEe-HUoqDYe9MpA" source="_ML68QLJXEe-HUoqDYe9MpA" target="_YkURwLJWEe-HUoqDYe9MpA"/>
+                  <transition xmi:type="uml:Transition" xmi:id="_9j2DILJXEe-HUoqDYe9MpA" name="Fine" source="_Lh4gwLJXEe-HUoqDYe9MpA" target="_ML68QLJXEe-HUoqDYe9MpA"/>
+                  <transition xmi:type="uml:Transition" xmi:id="__wZaQLJXEe-HUoqDYe9MpA" name="Iscrizione magistrale" source="_ML68QLJXEe-HUoqDYe9MpA" target="_YkURwLJWEe-HUoqDYe9MpA"/>
                   <subvertex xmi:type="uml:State" xmi:id="_Lh4gwLJXEe-HUoqDYe9MpA" name="In progresso"/>
                   <subvertex xmi:type="uml:State" xmi:id="_ML68QLJXEe-HUoqDYe9MpA" name="Completata"/>
                   <subvertex xmi:type="uml:Pseudostate" xmi:id="_ZEaRoLJXEe-HUoqDYe9MpA"/>
@@ -244,8 +244,8 @@
               <subvertex xmi:type="uml:State" xmi:id="_YkURwLJWEe-HUoqDYe9MpA" name="Laurea Magistrale">
                 <region xmi:type="uml:Region" xmi:id="_GW0KELJXEe-HUoqDYe9MpA" name="Region1">
                   <transition xmi:type="uml:Transition" xmi:id="_-R6qELJXEe-HUoqDYe9MpA" source="_ZZ1vELJXEe-HUoqDYe9MpA" target="_VT2KELJXEe-HUoqDYe9MpA"/>
-                  <transition xmi:type="uml:Transition" xmi:id="_A1dk4LJYEe-HUoqDYe9MpA" source="_VT2KELJXEe-HUoqDYe9MpA" target="_NwiJoLJXEe-HUoqDYe9MpA"/>
-                  <transition xmi:type="uml:Transition" xmi:id="_E26oILJYEe-HUoqDYe9MpA" source="_NwiJoLJXEe-HUoqDYe9MpA" target="_bE274LJWEe-HUoqDYe9MpA"/>
+                  <transition xmi:type="uml:Transition" xmi:id="_A1dk4LJYEe-HUoqDYe9MpA" name="Fine" source="_VT2KELJXEe-HUoqDYe9MpA" target="_NwiJoLJXEe-HUoqDYe9MpA"/>
+                  <transition xmi:type="uml:Transition" xmi:id="_E26oILJYEe-HUoqDYe9MpA" name="Iscrizione dottorato" source="_NwiJoLJXEe-HUoqDYe9MpA" target="_bE274LJWEe-HUoqDYe9MpA"/>
                   <subvertex xmi:type="uml:State" xmi:id="_NwiJoLJXEe-HUoqDYe9MpA" name="Completata"/>
                   <subvertex xmi:type="uml:State" xmi:id="_VT2KELJXEe-HUoqDYe9MpA" name="In progresso"/>
                   <subvertex xmi:type="uml:Pseudostate" xmi:id="_ZZ1vELJXEe-HUoqDYe9MpA"/>
