@@ -2,7 +2,7 @@
  	Creazione di una stanza virtuale
  • Breve descrizione
  	Il moderatore crea una nuova stanza virtuale
- • Precondizioni
+ • Pre-condizioni
  	Il moderatore ha accesso alla chat
  • Post-condizioni
  	La stanza virtuale è stata creata

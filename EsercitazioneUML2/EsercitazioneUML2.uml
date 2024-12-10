@@ -333,7 +333,7 @@
           </operand>
         </fragment>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fBL5YbMYEe-yNtwDxVJl0g" name="Message28ReceiveEvent" covered="_q3Wy8LMUEe-yNtwDxVJl0g" message="_fBKrQLMYEe-yNtwDxVJl0g"/>
-        <fragment xmi:type="uml:CombinedFragment" xmi:id="_Sqv9oLMXEe-yNtwDxVJl0g" name="break" covered="_q3Wy8LMUEe-yNtwDxVJl0g _j1X98LMUEe-yNtwDxVJl0g _me3IsLMUEe-yNtwDxVJl0g" interactionOperator="break">
+        <fragment xmi:type="uml:CombinedFragment" xmi:id="_Sqv9oLMXEe-yNtwDxVJl0g" name="opt" covered="_q3Wy8LMUEe-yNtwDxVJl0g _j1X98LMUEe-yNtwDxVJl0g _me3IsLMUEe-yNtwDxVJl0g" interactionOperator="opt">
           <operand xmi:type="uml:InteractionOperand" xmi:id="_SqwksLMXEe-yNtwDxVJl0g" name="InteractionOperand0" covered="_q3Wy8LMUEe-yNtwDxVJl0g _j1X98LMUEe-yNtwDxVJl0g _me3IsLMUEe-yNtwDxVJl0g">
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XQdPYLMVEe-yNtwDxVJl0g" name="Message24SendEvent" covered="_me3IsLMUEe-yNtwDxVJl0g" message="_XQcoULMVEe-yNtwDxVJl0g"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XQdPYbMVEe-yNtwDxVJl0g" name="Message24ReceiveEvent" covered="_j1X98LMUEe-yNtwDxVJl0g" message="_XQcoULMVEe-yNtwDxVJl0g"/>
