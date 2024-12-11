@@ -1,0 +1,24 @@
+ • Nome
+ 	Creazione di una stanza virtuale
+ • Breve descrizione
+ 	Il moderatore crea una nuova stanza virtuale
+ • Pre-condizioni
+ 	Il moderatore ha accesso alla chat
+ • Post-condizioni
+ 	La stanza virtuale è stata creata
+ • Situazioni di errore
+ 	La stanza virtuale è già esistente
+ • Stato del sistema nel caso in cui ci sia un errore
+ 	Nessuna nuova stanza virtuale è stata creata
+ • Attori
+ 	Moderatore
+ • Trigger
+ 	Il moderatore richiede attraverso l'interfaccia testuale di creare una nuova stanza virtuale
+ • Processo standard
+ 	1. Il moderatore fa login nella chat
+ 	2. Il moderatore seleziona l'opzione "Crea nuova stanza virtuale"
+ 	3. Il moderatore seleziona il nome della stanza virtuale
+ 	4. Il sistema crea la nuova stanza virtuale
+ 	5. Il sistema conferma al moderatore la creazione della nuova stanza virtuale
+ • Processo alternativo
+ 	4. Il sistema notifica al moderatore che una stanza con quel nome già esiste
